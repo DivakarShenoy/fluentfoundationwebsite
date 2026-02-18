@@ -3,8 +3,14 @@ import './HomePage.css';
 
 function HomePage() {
   return (
-    <div className="title">Home Page. This is where everything will go</div>
-  );
+    <><div className="box" style={{
+        width: "100vh",
+        height: "100vh",
+        backgroundColor: "#4CAF50",
+        borderRadius: "15px", // Rounded edges
+        overflow: "hidden"    // Ensures child content respects rounding
+      }}>Home Page. This is where everything will go</div></>
+  )
 }
 
 export default HomePage;
